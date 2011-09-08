@@ -7,11 +7,27 @@ h2. Features
 * Automatically switches between @HTML@ and @JSON@ output depending on file extension in request.
 * Shows how i18n can be configured with Spring and "FreeMarker":http://www.freemarker.org/.
 * Shows how logging can be configured using "SLF4J":http://www.slf4j.org/ and "Logback":http://logback.qos.ch/.
-* Almost 100 % free from @XML@ configuration. Instead, this project focuses on using the new Spring @Configuration@ annotation. Three @XML@ configuration files do exist in the project:
-** @logback.xml@ to configure the logging framework
-** @pom.xml@, the Maven Project Object Model
-** and of course the @web.xml@ to configure the Java Web Application.
+* 100 % free from Spring @XML@ configuration. Instead, this project focuses on using the new Spring @Configuration@ annotation.
 
-h2. TODO
+h2. Backlog
 
 * Wipe the whole project and rebuild it using TDD. Since this is mostly configuration, it will be more like Integration Test Driven Development ;)
+
+h2. Environment
+
+This project was initially created using Eclipse 3.7 (Indigo) with the following plugins installed:
+* From the official Eclipse Indigo Update Site (@http://download.eclipse.org/releases/indigo/@)
+** m2e - Maven Integration for Eclipse
+** Eclipse EGit
+* From JBoss Tools Development Milestone Update Site (@http://download.jboss.org/jbosstools/updates/development/indigo/@)
+** FreeMarker IDE
+
+h2. Build and Run
+
+To build and run this project the only things you really need is Git, a Java JDK and "Maven 3":http://maven.apache.org/. The last command will build the project and start it using the "Jetty":http://jetty.codehaus.org/jetty/ embedded web server on port @8080@:
+<pre>
+$ git clone git://github.com/simlun/simluns-spring-samples.git
+$ cd simluns-spring-samples/simluns-springmvc
+$ mvn jetty:run
+</pre>
+Then visit "http://localhost:8080/simluns-springmvc/":http://localhost:8080/simluns-springmvc/ to see the project in action!
