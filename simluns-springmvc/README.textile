@@ -1,0 +1,17 @@
+h1. simlun's Spring MVC
+
+A Spring 3.1 MVC project, configured using "FreeMarker":http://www.freemarker.org/ for @HTML@ views and "Jackson":http://jackson.codehaus.org/ for @JSON@ views.
+
+h2. Features
+
+* Automatically switches between @HTML@ and @JSON@ output depending on file extension in request.
+* Shows how i18n can be configured with Spring and "FreeMarker":http://www.freemarker.org/.
+* Shows how logging can be configured using "SLF4J":http://www.slf4j.org/ and "Logback":http://logback.qos.ch/.
+* Almost 100 % free from @XML@ configuration. Instead, this project focuses on using the new Spring @Configuration@ annotation. Three @XML@ configuration files do exist in the project:
+** @logback.xml@ to configure the logging framework
+** @pom.xml@, the Maven Project Object Model
+** and of course the @web.xml@ to configure the Java Web Application.
+
+h2. TODO
+
+* Wipe the whole project and rebuild it using TDD. Since this is mostly configuration, it will be more like Integration Test Driven Development ;)
