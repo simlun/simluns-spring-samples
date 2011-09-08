@@ -1,0 +1,1 @@
+simlun's Spring Samples! A bunch of sample projects built using the fantastic "Spring Framework":http://www.springsource.org/. The purpose is to demo features and create good starting points for new projects.
