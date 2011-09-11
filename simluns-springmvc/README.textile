@@ -8,6 +8,7 @@ h2. Features
 * Shows how i18n can be configured with Spring and "FreeMarker":http://www.freemarker.org/.
 * Shows how logging can be configured using "SLF4J":http://www.slf4j.org/ and "Logback":http://logback.qos.ch/.
 * 100 % free from Spring @XML@ configuration. Instead, this project focuses on using the new Spring @Configuration@ annotation.
+* Shows how Java and "Groovy":http://groovy.codehaus.org/ can be used together in the same project.
 
 h2. Backlog
 
@@ -21,6 +22,8 @@ This project was initially created using Eclipse 3.7 (Indigo) with the following
 ** Eclipse EGit
 * From JBoss Tools Development Milestone Update Site (@http://download.jboss.org/jbosstools/updates/development/indigo/@)
 ** FreeMarker IDE
+* From the Groovy Update Site (@http://dist.springsource.org/release/GRECLIPSE/e3.7/@)
+** Groovy-Eclipse
 
 h2. Build and Run
 
