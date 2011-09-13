@@ -1,15 +1,15 @@
 package se.simlun.springsamples.springmvc.models
 
-public class Person {
+class Person {
 	String name
 	int age
 
-	public Person(name, age) {
+	Person(name, age) {
 		this.name = name
 		this.age = age
 	}
 
-	public String toString() {
+	String toString() {
 		"${name} is ${age} years old"
 	}
 }
